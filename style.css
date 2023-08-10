@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conteiner{
+
+height: 100vh;
+
+}
+head{
+    width: 35%;
+}
+.title{
+    margin-bottom: 10px;
+}
+.input{
+    margin-bottom: 3px;
+}
+.headcontent{
+
+    height: 35%;
+width: 100%;
+padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.colors{
+    display: flex;
+}
+.boxes{
+    display: flex;
+
+
+}
+.input input{
+    width: 27rem;
+    height: 1.4rem;
+    padding: .9rem;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 4px;
+}
+input:focus{
+    outline: none;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    width: 15rem;
+    align-items: center;
+height: 2.5rem;
+    border: 1px solid gray;
+    box-shadow: 1px 0 1px 0 rgb(242, 207, 207);
+    margin: 2rem;
+}
+/* .color1{
+    background-color: rgb(251, 242, 121);
+}
+.color2{
+    background-color: rgb(253, 140, 144);
+}
+.color3{
+    background-color: rgb(168, 244, 244);
+}
+.color4{
+    background-color: rgb(252, 144, 218);
+} */
+.icon{
+ 
+    border-radius: 3px;
+
+    margin-left: 3px;
+}
+#icon1{
+    border: 1px solid rgb(80, 179, 232);
+color: rgb(80, 179, 232);
+   font-size: 15spx;
+padding: .3rem;
+
+}
+#danger{
+    display: none;
+}
+#danger p{
+    color: red;
+    padding: .1rem;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+.inp{
+    background-color:white;
+}
+.icon2{
+    color: red;
+
+    border: 1px solid red;
+    padding: .24rem;
+    font-size: 15px;
+}
+.icons{
+ margin-top: 5px;
+ width: 27rem;
+display: flex;
+ flex-direction: row;
+ justify-content: right;
+}
+.color{
+   
+    border-radius: 100%;
+    padding: 10px;
+
+    margin-right: 2px;
+
+}
+.colors{
+    display: flex;
+ width:27rem;
+ justify-content: left;
+
+}
+.boxes{
+    display: flex;
+
+    padding: 1rem;
+}
